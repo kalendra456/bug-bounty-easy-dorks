@@ -178,3 +178,27 @@ site:*.at responsible disclosure
 site:*.be responsible disclosure
 
 site:*.au responsible disclosure
+
+1. site:[websiteurl] intext:admin
+2. site:[websiteurl] inurl:login
+3. site:[websiteurl] filetype:php
+4. site:[websiteurl] intitle:index.of
+5. site:[websiteurl] ext:sql
+6. site:[websiteurl] intitle:dashboard
+7. site:[websiteurl] intitle:error|warning|failed
+8. site:[websiteurl] inurl:wp-content/plugins intitle:index
+9. site:[websiteurl] inurl:readme.txt
+10. site:[websiteurl] intext:"Powered by WordPress"
+
+Here are some Google Dorks that can help you find Indian websites that have vulnerability disclosure programs:
+
+1. site:.in "vulnerability disclosure program"
+2. site:.in "responsible disclosure program"
+3. site:.in "security disclosure program"
+4. site:.in "security researcher program"
+5. site:.in intext:"report security vulnerability"
+6. site:.in intext:"security bug bounty program"
+7. site:.in inurl:vulnerability-disclosure-program
+8. site:.in inurl:responsible-disclosure-program
+9. site:.in inurl:security-disclosure-program
+10. site:.in inurl:bug-bounty-program
